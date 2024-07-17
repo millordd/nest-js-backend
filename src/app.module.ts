@@ -6,6 +6,9 @@ import { UsersModule } from './users/users.module';
 import { ConfigModule } from "@nestjs/config";
 import { getEnvVar } from "./config";
 import { User } from "./users/user.model";
+import { RolesService } from './roles/roles.service';
+import { RolesController } from './roles/roles.controller';
+import { RolesModule } from './roles/roles.module';
 console.log(getEnvVar("POSTGRES_HOST"), getEnvVar("POSTGRES_USER"),"db")
 @Module({
     // controllers:[AppController],
@@ -27,7 +30,10 @@ console.log(getEnvVar("POSTGRES_HOST"), getEnvVar("POSTGRES_USER"),"db")
             autoLoadModels:true
           }),
         UsersModule,
-    ]
+        RolesModule,
+    ],
+    providers: [RolesService],
+    controllers: [RolesController]
 
 })
 export class AppModule {}

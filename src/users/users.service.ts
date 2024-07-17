@@ -16,6 +16,5 @@ export class UsersService {
     async getAllUser(){
         const users = await this.userRepository.findAll()
         return users
-
     }
 }
