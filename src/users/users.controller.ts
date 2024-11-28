@@ -1,26 +1,17 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
-import { CreateUserDto } from './dto/create-user.dto';
-import { UsersService } from './users.service';
-import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { User } from './user.model';
+import { Controller, Post, Body, ConflictException } from '@nestjs/common';
+import { UserService } from './users.service';
 
-@ApiTags("Users")
 @Controller('users')
+export class UserController {
+  constructor(private readonly userService: UserService) {}
 
-export class UsersController {
-    constructor(private userService:UsersService){}
-    @ApiOperation({summary:"Creating users"})
-    @ApiResponse({status:200,type:User})
-    @Post() 
-    create(@Body() userDto:CreateUserDto){
-        return this.userService.createUser(userDto)
-    }
-     
-    @ApiOperation({summary:"Recieving all users"})
-    @ApiResponse({status:200,type:[User]})
-    @Get()
-    getAll(){
-        return this.userService.getAllUser()
+  @Post('create')
+  async register(@Body() body: { username: string; password: string }) {
+    const existingUser = await this.userService.findOne(body.username);
+    if (existingUser) {
+      throw new ConflictException('User already exists');
     }
 
+    return this.userService.createUser(body.username, body.password); // Register the user
+  }
 }

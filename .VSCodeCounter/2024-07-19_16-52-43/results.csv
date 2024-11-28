@@ -1,0 +1,23 @@
+"filename", "language", "JSON with Comments", "JSON", "TypeScript", "Markdown", "comment", "blank", "total"
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\.prettierrc", "JSON", 0, 4, 0, 0, 0, 0, 4
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\README.md", "Markdown", 0, 0, 0, 55, 2, 21, 78
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\nest-cli.json", "JSON", 0, 8, 0, 0, 0, 1, 9
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\package-lock.json", "JSON", 0, 9269, 0, 0, 0, 1, 9270
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\package.json", "JSON", 0, 80, 0, 0, 0, 1, 81
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\app.module.ts", "TypeScript", 0, 0, 32, 0, 5, 2, 39
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\config.ts", "TypeScript", 0, 0, 13, 0, 3, 5, 21
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\main.ts", "TypeScript", 0, 0, 20, 0, 1, 6, 27
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\dto\create-role.dto.ts", "TypeScript", 0, 0, 4, 0, 0, 0, 4
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.controller.ts", "TypeScript", 0, 0, 16, 0, 0, 4, 20
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.model.ts", "TypeScript", 0, 0, 24, 0, 0, 8, 32
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.module.ts", "TypeScript", 0, 0, 18, 0, 0, 4, 22
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.service.ts", "TypeScript", 0, 0, 20, 0, 0, 20, 40
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\user-roles.models.ts", "TypeScript", 0, 0, 16, 0, 5, 9, 30
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\dto\create-user.dto.ts", "TypeScript", 0, 0, 7, 0, 0, 1, 8
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\user.model.ts", "TypeScript", 0, 0, 30, 0, 0, 8, 38
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.controller.ts", "TypeScript", 0, 0, 22, 0, 0, 5, 27
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.module.ts", "TypeScript", 0, 0, 17, 0, 0, 2, 19
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.service.ts", "TypeScript", 0, 0, 19, 0, 0, 6, 25
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\tsconfig.build.json", "JSON", 0, 4, 0, 0, 0, 1, 5
+"c:\Users\ArdasherBobokalonov\Desktop\backend\backend\tsconfig.json", "JSON with Comments", 21, 0, 0, 0, 0, 1, 22
+"Total", "-", 21, 9365, 258, 55, 16, 106, 9821

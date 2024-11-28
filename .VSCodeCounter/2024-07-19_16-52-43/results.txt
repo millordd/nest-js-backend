@@ -1,0 +1,57 @@
+Date : 2024-07-19 16:52:43
+Directory : c:\Users\ArdasherBobokalonov\Desktop\backend\backend
+Total : 21 files,  9699 codes, 16 comments, 106 blanks, all 9821 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          5 |      9,365 |          0 |          4 |      9,369 |
+| TypeScript         |         14 |        258 |         14 |         80 |        352 |
+| Markdown           |          1 |         55 |          2 |         21 |         78 |
+| JSON with Comments |          1 |         21 |          0 |          1 |         22 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         21 |      9,699 |         16 |        106 |      9,821 |
+| . (Files)                                                                             |          7 |      9,441 |          2 |         26 |      9,469 |
+| src                                                                                   |         14 |        258 |         14 |         80 |        352 |
+| src (Files)                                                                           |          3 |         65 |          9 |         13 |         87 |
+| src\roles                                                                             |          6 |         98 |          5 |         45 |        148 |
+| src\roles (Files)                                                                     |          5 |         94 |          5 |         45 |        144 |
+| src\roles\dto                                                                         |          1 |          4 |          0 |          0 |          4 |
+| src\users                                                                             |          5 |         95 |          0 |         22 |        117 |
+| src\users (Files)                                                                     |          4 |         88 |          0 |         21 |        109 |
+| src\users\dto                                                                         |          1 |          7 |          0 |          1 |          8 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                              | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\.prettierrc                      | JSON               |          4 |          0 |          0 |          4 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\README.md                        | Markdown           |         55 |          2 |         21 |         78 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\nest-cli.json                    | JSON               |          8 |          0 |          1 |          9 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\package-lock.json                | JSON               |      9,269 |          0 |          1 |      9,270 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\package.json                     | JSON               |         80 |          0 |          1 |         81 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\app.module.ts                | TypeScript         |         32 |          5 |          2 |         39 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\config.ts                    | TypeScript         |         13 |          3 |          5 |         21 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\main.ts                      | TypeScript         |         20 |          1 |          6 |         27 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\dto\create-role.dto.ts | TypeScript         |          4 |          0 |          0 |          4 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.controller.ts    | TypeScript         |         16 |          0 |          4 |         20 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.model.ts         | TypeScript         |         24 |          0 |          8 |         32 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.module.ts        | TypeScript         |         18 |          0 |          4 |         22 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\roles.service.ts       | TypeScript         |         20 |          0 |         20 |         40 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\roles\user-roles.models.ts   | TypeScript         |         16 |          5 |          9 |         30 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\dto\create-user.dto.ts | TypeScript         |          7 |          0 |          1 |          8 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\user.model.ts          | TypeScript         |         30 |          0 |          8 |         38 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.controller.ts    | TypeScript         |         22 |          0 |          5 |         27 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.module.ts        | TypeScript         |         17 |          0 |          2 |         19 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\src\users\users.service.ts       | TypeScript         |         19 |          0 |          6 |         25 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\tsconfig.build.json              | JSON               |          4 |          0 |          1 |          5 |
+| c:\Users\ArdasherBobokalonov\Desktop\backend\backend\tsconfig.json                    | JSON with Comments |         21 |          0 |          1 |         22 |
+| Total                                                                                 |                    |      9,699 |         16 |        106 |      9,821 |
++---------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

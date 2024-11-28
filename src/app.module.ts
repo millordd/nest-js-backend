@@ -2,14 +2,14 @@ import { Module } from "@nestjs/common";
 // import { AppController } from "./app.controller";
 // import { AppService } from "./app.service";
 import { SequelizeModule } from "@nestjs/sequelize";
-import { UsersModule } from './users/users.module';
 import { ConfigModule } from "@nestjs/config";
 import { getEnvVar } from "./config";
 import { User } from "./users/user.model";
-import { RolesService } from './roles/roles.service';
-import { RolesController } from './roles/roles.controller';
-import { RolesModule } from './roles/roles.module';
-console.log(getEnvVar("POSTGRES_HOST"), getEnvVar("POSTGRES_USER"),"db")
+
+import { GoodsModule } from './goods/goods.module';
+import { AuthModule } from "./auth/auth.module";
+import { UserModule } from "./users/users.module";
+// console.log(getEnvVar("POSTGRES_HOST"), getEnvVar("POSTGRES_USER"),"db")
 @Module({
     // controllers:[AppController],
     // providers:[AppService],
@@ -27,13 +27,13 @@ console.log(getEnvVar("POSTGRES_HOST"), getEnvVar("POSTGRES_USER"),"db")
             password: getEnvVar("POSTGRES_PASSWORD"),
             database: getEnvVar("POSTGRES_DB"),
             models: [User],
-            autoLoadModels:true
+            autoLoadModels:true,
+            logging: console.log
           }),
-        UsersModule,
-        RolesModule,
+        UserModule,
+        AuthModule,
+        GoodsModule,
     ],
-    providers: [RolesService],
-    controllers: [RolesController]
 
 })
 export class AppModule {}
